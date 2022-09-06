@@ -33,7 +33,7 @@ body {
 }
 .conteiner-img {
     width: 70%;
-    height: 550px;
+    height: auto;
     margin: 0 auto;
     background-color: #ffffff;
     border-radius: 20px;
