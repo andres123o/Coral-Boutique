@@ -29,7 +29,6 @@ body {
     width: 100%;
     display: block;
     height: auto;
-    padding-top: 30px;
     padding-bottom: 40px;
 }
 .conteiner-img {
@@ -38,7 +37,7 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 .conteiner-img .foto {
     width: 100%;
@@ -108,7 +107,6 @@ body {
     color: #ffffff;
     text-decoration: none;
     margin-top: 20px;
-    margin-bottom: 40px;
     transition: 0.5s;
 }
 .link:hover {
