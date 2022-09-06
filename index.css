@@ -45,7 +45,7 @@ body {
 }
 .container-text {
     font-family: 'Open Sans';
-    margin-top: 10px;
+    margin-top: -20px;
     color: #440932;
 }
 .container-text p, h4, h3{
@@ -63,24 +63,30 @@ body {
     width: 300px;
     height: 40px;
     margin-top: 20px;
-    background-color: #440932;
+    background-color: #ce1a98;
     color: #ffffff;
     border-radius: 20px;
+    border: 0;
+    transition: 0.5s;
+}
+.ca {
+    width: auto;
 }
 .boton a {
     color: #ffffff;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
 }
-.carrusel1 {
-    width: 100%;
-    height: 362.234;
-    position: absolute;
+.boton:hover {
+    background-color: #790f59;
 }
+
 .derecha  {
     position: relative;
     width: 30px;
     top: -190px;
-    right: -270px;
+    left: 105%;
     transition: 0.2s;
 }
 .izquierda {
