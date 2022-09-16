@@ -122,3 +122,10 @@ body {
     width: 20px;
     margin-left: 5px;
 }
+.antes {
+    text-decoration-line: line-through;
+    font-size: 15px;
+}
+.descuento {
+    display: flex;
+}
